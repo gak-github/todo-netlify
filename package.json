@@ -1,7 +1,7 @@
 {
-  "name": "serverless-netlify",
+  "name": "todo",
   "private": true,
-  "description": "A sample full stack application using Gatsby+Netlify+Express+Serverless",
+  "description": "A full stack(MERN) application using Gatsby+Netlify+Express+Serverless",
   "version": "1.0.0",
   "author": "Asokumar Gurusamy",
   "dependencies": {
@@ -48,9 +48,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/gak-github/todo-netlify.git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/gak-github/todo-netlify/issues"
   }
 }
