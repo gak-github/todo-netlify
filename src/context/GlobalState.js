@@ -79,8 +79,6 @@ export const GlobalProvider = ({ children }) => {
     };
 
     try {
-
-      console.log("=====todo._id", todo._id);
       const res = await axios.put(`/.netlify/functions/todo/${todo._id}`, todo, config);
       dispatch({
         type: "UPDATE_TODO",

@@ -4,7 +4,6 @@ export default (state, action) => {
       todo => todo._id === action.payload._id
     );
     state.todos[index] = action.payload;
-    console.log("=======new odos====", state.todos);
     return state.todos;
   };
   switch (action.type) {

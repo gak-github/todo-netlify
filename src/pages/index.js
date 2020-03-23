@@ -3,6 +3,7 @@ import "../styles/App.css";
 import Header from "../components/Header";
 import TodoList from "../components/TodoList";
 import AddTodo from "../components/AddTodo";
+import Footer from "../components/Footer";
 import { GlobalProvider } from "../context/GlobalState";
 
 function IndexPage() {
@@ -14,9 +15,10 @@ function IndexPage() {
           <AddTodo />
           <TodoList />
         </div>
+        <Footer />
       </div>
     </GlobalProvider>
-  )
+  );
 }
 
 export default IndexPage;

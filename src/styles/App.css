@@ -30,3 +30,16 @@ a {
 .btn:hover {
   background: #666;
 }
+
+span:before{
+    content:" "; 
+    display:inline-block; 
+    width:16px;
+}
+footer {
+  margin-top: 400px;
+  text-align: center;
+}
+img {
+  margin-top: 5px;
+}
