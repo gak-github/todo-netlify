@@ -46,3 +46,6 @@
   10. All the express routes are registered through express middleware and the same is invoked through serverless-http which is listening for an event (lamda function)
   
   11. Basically, all the API requests (/.netlify/functions/todo) are served by "functions/todo/todo.js" which has a routes mapping through express middleware which maps to "routes/todo.js". This (routes/todo.js) calls controllers/todos.js and finally calls the DB (MongoDB).
+
+
+This application can be viewed at [agurusamy-todo.netlify.com](https://www.agurusamy-todo.netlify.com).
