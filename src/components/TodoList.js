@@ -9,7 +9,7 @@ const TodoList = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   return (
-    <div>
+    <div className="todo-list">
         {todos.map( todo => (
           <Todo key={todo._id} todo={todo} />
         ))}

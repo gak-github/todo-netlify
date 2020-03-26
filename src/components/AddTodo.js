@@ -38,7 +38,7 @@ const AddTodo = () => {
           />
           <input
             type="submit"
-            value="Submit"
+            value="Add"
             className="btn"
             style={{ flex: '1' }}
           />
